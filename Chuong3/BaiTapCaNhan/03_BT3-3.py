@@ -1,7 +1,6 @@
-
-x = float(input("x= "))
-y = float(input("y= "))
-ch = input("Phep toan: ")
+x = float(input("x="))
+y = float(input("y="))
+ch = input("Phep toan:")
 
 if ch == '+':
     ket_qua = x + y
