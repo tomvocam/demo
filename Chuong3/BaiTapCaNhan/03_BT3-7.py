@@ -3,8 +3,6 @@ while True:
     n = int(input(""))
     if n < 0:
         break
-    if n==0:
-        print('1')
     a = 1
     i = 1
     while i <= n:

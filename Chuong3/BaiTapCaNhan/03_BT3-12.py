@@ -38,7 +38,7 @@
 #         print(mahoa[i//10],mahoa[i%10],mahoa[j//10],mahoa[j%10],sep='')
 #     n=n*-1
 #C3
-n = int(input())
+# n = int(input())
 mahoa = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L']
 
 if n < 10:

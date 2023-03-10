@@ -1,20 +1,16 @@
 # Câu a
-# n=int(input('Nhập n: '))
-# while n < 1:
-#     print('Không hợp lệ.')
-#     n=int(input('Nhập n: '))
-    
-# count=0
+# n=int(input('n='))    
 # for i in range (1, n+1):
+#     if n<1:
+#         break
 #     print(i)
 
 # Câu b
-# n=int(input('Nhập n: '))
-# while n < 1:
-#     print('Không hợp lệ.')
-#     n=int(input('Nhập n: '))
+# n=int(input('n='))
 # count=0    
 # for i in range (1, n+1):
+#     if n<1:
+#         break
 #     print(i, end=' ')
 #     count += 1
 #     if count == 5:
@@ -22,7 +18,7 @@
 #         count=0
 
 # Câu c
-n=int(input('Nhập n: '))  
+n=int(input('n='))  
 while n < 1:
     print('Không hợp lệ.')
     n=int(input('Nhập n: '))

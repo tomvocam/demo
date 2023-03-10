@@ -28,6 +28,20 @@ for i in range(n + 1):
         count += 1  # Tăng biến đếm lên 1
         if i == n:  # Nếu đã in ra đủ n số chẵn thì dừng vòng lặp
             break
+        
+#Cach 2
+##  Lap While
+# n=int(input(''))
+# i=0
+# while 2<=i<n<=50:
+#     print(i,end=' ')
+#     i+=2
+# Lap For
+# n=int(input(''))
+# for i in range(0,n+2,2):
+#     if 2>=n or n>=50:
+#         break
+#     print(i, end=' ')
 
 
    
