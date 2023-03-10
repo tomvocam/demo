@@ -14,26 +14,39 @@
 
 # n = int(input("Nhập số nguyên n (0<=n<=9999): "))
 
-# encoded = ""
+# mahoa = ""
 # for digit in str(n):
-#     encoded += digits[digit] + ""
+#     mahoa += digits[digit] + ""
 
 # print(encoded)
+#C2
+# n=int(input())
+# mahoa=['A','B','C','D','E','F','G','H','K','L']
 
-n=int(input())
-mahoa=['A','B','C','D','E','F','G','H','K','L']
-
-while n>=0 and n<=9999:
-    if n<10:
-        print(mahoa[n])   
+# while n>=0 and n<=9999:
+#     if n<10:
+#         print(mahoa[n])   
         
-    elif n>=10 and n<100:
-        print(mahoa[n//10],mahoa[n%10],sep='')
-    elif n>=100 and n<1000:
-        i=n//10 #vd: n=123 => i=12
-        print(mahoa[i//10],mahoa[i%10],mahoa[n%10],sep='')
-    elif n>=1000 and n<=9999: #vd n=1234
-        i=n//100  
-        j=n%100  
-        print(mahoa[i//10],mahoa[i%10],mahoa[j//10],mahoa[j%10],sep='')
-    n=n*-1
+#     elif n>=10 and n<100:
+#         print(mahoa[n//10],mahoa[n%10],sep='')
+#     elif n>=100 and n<1000:
+#         i=n//10 #vd: n=123 => i=12
+#         print(mahoa[i//10],mahoa[i%10],mahoa[n%10],sep='')
+#     elif n>=1000 and n<=9999: #vd n=1234
+#         i=n//100  
+#         j=n%100  
+#         print(mahoa[i//10],mahoa[i%10],mahoa[j//10],mahoa[j%10],sep='')
+#     n=n*-1
+#C3
+n = int(input())
+mahoa = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L']
+
+if n < 10:
+    print(mahoa[n])
+elif n < 100:
+    print(f'{mahoa[n//10]}{mahoa[n%10]}')
+elif n < 1000:
+    print(f'{mahoa[n//100]}{mahoa[n//10%10]}{mahoa[n%10]}')
+elif n < 10000:
+    print(f'{mahoa[n//1000]}{mahoa[n//100%10]}{mahoa[n//10%10]}{mahoa[n%10]}')
+
