@@ -1,8 +1,12 @@
-# i=9
-# while i>0:
-#     print(i*'$')
-#     i-=1
-# for i in range(9,0,-1):
-#     print(i*'$')
-for i in range(1,7):
-    print('* '*i)
+##  Lap While
+# n=int(input(''))
+# i=0
+# while 2<=i<n<=50:
+#     print(i,end=' ')
+#     i+=2
+# Lap For
+n=int(input(''))
+for i in range(0,n+2,2):
+    if 2>=n or n>=50:
+        break
+    print(i, end=' ')

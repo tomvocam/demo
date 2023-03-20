@@ -1,10 +1,12 @@
-n=int(input('n='))
-temp=n
-count=0
-while temp>0:
-    count+=1
-    temp//=10
-print(f'so {n} co {count} chu so')
-        
-        
-        
+# a,b = input().split() # in 2 so
+# print(int(a)%int(b))
+# Cau 5
+n=int(input())
+c=0
+for i in range(1,n+1):
+    if i%2==0:
+        c+=i
+print(c)
+
+
+

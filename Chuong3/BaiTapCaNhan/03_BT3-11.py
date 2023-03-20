@@ -4,7 +4,7 @@ count_negative = 0
 
 # Nhập dãy số từ người dùng
 while True:
-    n = int(input("Nhập một số nguyên (nhập số 0 để kết thúc): "))
+    n = int(input(""))
     if n == 0:
         break
     elif n > 0:
@@ -13,5 +13,5 @@ while True:
         count_negative += 1
 
 # In ra kết quả
-print("Số dương đã nhập:", count_positive)
-print("Số âm đã nhập:", count_negative)
+print(f"{count_positive} so duong")
+print(f"{count_negative} so am")
