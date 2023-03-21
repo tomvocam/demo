@@ -3,6 +3,7 @@ def Nhap():
     return n
 def NhapvaDem(n):
     count=0
+    print(f'Nhap {n} so nguyen:')
     for i in range(n):
         t=int(input())
         if t%2==0 and t!=0:
@@ -11,6 +12,5 @@ def NhapvaDem(n):
 def inkq(count):
     print('So chu so chan la:',count)
 n=Nhap()
-print(f'Nhap {n} so nguyen:')
 count=NhapvaDem(n)
 inkq(count)
